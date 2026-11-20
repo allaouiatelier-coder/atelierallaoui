@@ -1,0 +1,12 @@
+# Oude links blijven werken
+/product          /shop/    301
+/index.html       /         301
+
+# Taal van de browser (bezoeker kan altijd zelf wisselen)
+/    /fr/    302    Language=fr
+/    /en/    302    Language=en
+
+# Verwijderde collectie (Layl) → collectiepagina
+/product/layl-*      /shop/       301
+/fr/product/layl-*   /fr/shop/    301
+/en/product/layl-*   /en/shop/    301

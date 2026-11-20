@@ -1,0 +1,19 @@
+{
+  "name": "Atelier Allaoui — Moroccan Couture",
+  "short_name": "Allaoui",
+  "description": "Handgemaakte Marokkaanse couture — kaftans, takchita, bruidscouture en sieraden.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1a1a1a",
+  "background_color": "#faf8f5",
+  "lang": "nl",
+  "categories": ["fashion", "shopping"],
+  "icons": [
+    {"src": "/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"},
+    {"src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}
