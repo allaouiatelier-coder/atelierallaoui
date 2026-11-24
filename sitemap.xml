@@ -1710,4 +1710,35 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/caring-for-embroidered-pieces/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/caring-for-embroidered-pieces/"/>
   </url>
+
+  <url>
+    <loc>https://atelierallaoui.com/b2b/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/b2b/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/fr/b2b/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/b2b/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/en/b2b/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/b2b/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/b2b/"/>
+  </url>
 </urlset>
