@@ -213,9 +213,10 @@
     var phs = [].slice.call(gal.querySelectorAll('.ph'));
     if (phs.length) {
       var lb = document.createElement('div'); lb.className = 'lb'; lb.setAttribute('role', 'dialog'); lb.setAttribute('aria-modal', 'true');
-      var inner = '<button class="lb__close" aria-label="Sluiten">Sluiten</button>';
-      inner += '<button class="lb__arr lb__arr--prev" aria-label="Vorige">&#8249;</button>';
-      inner += '<button class="lb__arr lb__arr--next" aria-label="Volgende">&#8250;</button>';
+      var LBT = ({nl:['Sluiten','Vorige','Volgende'],en:['Close','Previous','Next'],fr:['Fermer','Précédent','Suivant']})[(document.documentElement.lang||'nl').slice(0,2)] || ['Sluiten','Vorige','Volgende'];
+      var inner = '<button class="lb__close" aria-label="' + LBT[0] + '">' + LBT[0] + '</button>';
+      inner += '<button class="lb__arr lb__arr--prev" aria-label="' + LBT[1] + '">&#8249;</button>';
+      inner += '<button class="lb__arr lb__arr--next" aria-label="' + LBT[2] + '">&#8250;</button>';
       inner += '<div class="lb__counter"></div><div class="lb__inner">';
       phs.forEach(function (ph, i) {
         var pic = ph.querySelector('picture');
@@ -650,15 +651,17 @@
 /* Custom-made formulier → WhatsApp */
 function sendCustomForm(form) {
   var d = new FormData(form);
+  var lg = (document.documentElement.lang || 'nl').slice(0, 2);
+  var T = {
+    nl: ['Naam', 'Tel', 'Type', 'Gelegenheid', 'Kleuren', 'Budget', 'Wensen', 'Hallo, ik wil graag een stuk op maat laten maken.'],
+    en: ['Name', 'Phone', 'Type', 'Occasion', 'Colours', 'Budget', 'Wishes', 'Hello, I would like to have a piece made to measure.'],
+    fr: ['Nom', 'Tél', 'Type', 'Occasion', 'Couleurs', 'Budget', 'Souhaits', 'Bonjour, je souhaite faire réaliser une pièce sur mesure.']
+  }[lg] || null;
+  if (!T) T = ['Naam', 'Tel', 'Type', 'Gelegenheid', 'Kleuren', 'Budget', 'Wensen', 'Hallo, ik wil graag een stuk op maat laten maken.'];
+  var keys = ['name', 'phone', 'type', 'occasion', 'colors', 'budget', 'notes'];
   var lines = [];
-  if (d.get('name')) lines.push('*Naam:* ' + d.get('name'));
-  if (d.get('phone')) lines.push('*Tel:* ' + d.get('phone'));
-  if (d.get('type')) lines.push('*Type:* ' + d.get('type'));
-  if (d.get('occasion')) lines.push('*Gelegenheid:* ' + d.get('occasion'));
-  if (d.get('colors')) lines.push('*Kleuren:* ' + d.get('colors'));
-  if (d.get('budget')) lines.push('*Budget:* ' + d.get('budget'));
-  if (d.get('notes')) lines.push('*Wensen:* ' + d.get('notes'));
-  var msg = 'Hallo, ik wil graag een stuk op maat laten maken.\n\n' + lines.join('\n');
+  keys.forEach(function (k, i) { if (d.get(k)) lines.push('*' + T[i] + ':* ' + d.get(k)); });
+  var msg = T[7] + '\n\n' + lines.join('\n');
   var phone = form.getAttribute('data-wa');
   window.open('https://wa.me/' + phone + '?text=' + encodeURIComponent(msg), '_blank');
   return false;
