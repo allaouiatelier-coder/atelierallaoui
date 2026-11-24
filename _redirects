@@ -1,3 +1,37 @@
+# Extra domeinen → hoofdsite (taalmap voor de homepage)
+https://atelierallaoui.fr/  https://atelierallaoui.com/fr/  301!
+https://atelierallaoui.fr/*  https://atelierallaoui.com/:splat  301!
+http://atelierallaoui.fr/  https://atelierallaoui.com/fr/  301!
+http://atelierallaoui.fr/*  https://atelierallaoui.com/:splat  301!
+https://www.atelierallaoui.fr/  https://atelierallaoui.com/fr/  301!
+https://www.atelierallaoui.fr/*  https://atelierallaoui.com/:splat  301!
+http://www.atelierallaoui.fr/  https://atelierallaoui.com/fr/  301!
+http://www.atelierallaoui.fr/*  https://atelierallaoui.com/:splat  301!
+https://atelierallaoui.de/  https://atelierallaoui.com/en/  301!
+https://atelierallaoui.de/*  https://atelierallaoui.com/:splat  301!
+http://atelierallaoui.de/  https://atelierallaoui.com/en/  301!
+http://atelierallaoui.de/*  https://atelierallaoui.com/:splat  301!
+https://www.atelierallaoui.de/  https://atelierallaoui.com/en/  301!
+https://www.atelierallaoui.de/*  https://atelierallaoui.com/:splat  301!
+http://www.atelierallaoui.de/  https://atelierallaoui.com/en/  301!
+http://www.atelierallaoui.de/*  https://atelierallaoui.com/:splat  301!
+https://atelierallaoui.co.uk/  https://atelierallaoui.com/en/  301!
+https://atelierallaoui.co.uk/*  https://atelierallaoui.com/:splat  301!
+http://atelierallaoui.co.uk/  https://atelierallaoui.com/en/  301!
+http://atelierallaoui.co.uk/*  https://atelierallaoui.com/:splat  301!
+https://www.atelierallaoui.co.uk/  https://atelierallaoui.com/en/  301!
+https://www.atelierallaoui.co.uk/*  https://atelierallaoui.com/:splat  301!
+http://www.atelierallaoui.co.uk/  https://atelierallaoui.com/en/  301!
+http://www.atelierallaoui.co.uk/*  https://atelierallaoui.com/:splat  301!
+https://atelierallaoui.se/  https://atelierallaoui.com/en/  301!
+https://atelierallaoui.se/*  https://atelierallaoui.com/:splat  301!
+http://atelierallaoui.se/  https://atelierallaoui.com/en/  301!
+http://atelierallaoui.se/*  https://atelierallaoui.com/:splat  301!
+https://www.atelierallaoui.se/  https://atelierallaoui.com/en/  301!
+https://www.atelierallaoui.se/*  https://atelierallaoui.com/:splat  301!
+http://www.atelierallaoui.se/  https://atelierallaoui.com/en/  301!
+http://www.atelierallaoui.se/*  https://atelierallaoui.com/:splat  301!
+
 # Oude links blijven werken
 /product          /shop/    301
 /index.html       /         301
