@@ -1014,3 +1014,10 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .wish-empty{padding:64px 0;text-align:center}[data-px]{backface-visibility:hidden}
 @media (prefers-reduced-motion:reduce){[data-px]{transform:none!important}
 }
+
+/* B2B / Op maat / Verhuur kaarten op de homepage */
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,28px)}
+.trio__item{background:var(--cream);padding:clamp(22px,3vw,40px);display:flex;flex-direction:column;gap:10px;border:1px solid rgba(157,120,125,.25)}
+.trio__item h3{font-size:clamp(1.5rem,1.2rem + 1vw,2rem);font-weight:500;margin:0}
+.trio__item p{margin:0;flex:1}
+@media(max-width:800px){.trio{grid-template-columns:1fr}}
