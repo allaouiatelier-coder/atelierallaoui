@@ -221,32 +221,35 @@
   </url>
   <url>
     <loc>https://atelierallaoui.com/journal/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/"/>
   </url>
   <url>
     <loc>https://atelierallaoui.com/fr/journal/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/"/>
   </url>
   <url>
     <loc>https://atelierallaoui.com/en/journal/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/"/>
   </url>
   <url>
@@ -2395,5 +2398,192 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/product/zellige/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/product/zellige/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/product/zellige/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/ar/journal/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/caftan-ou-takchita-la-difference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/kaftan-vs-takchita/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/qaftan-wa-takchita-alfarq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/fr/journal/caftan-ou-takchita-la-difference/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/caftan-ou-takchita-la-difference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/kaftan-vs-takchita/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/qaftan-wa-takchita-alfarq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/en/journal/kaftan-vs-takchita/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/caftan-ou-takchita-la-difference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/kaftan-vs-takchita/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/qaftan-wa-takchita-alfarq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/ar/journal/qaftan-wa-takchita-alfarq/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/caftan-ou-takchita-la-difference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/kaftan-vs-takchita/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/qaftan-wa-takchita-alfarq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/kaftan-of-takchita-verschil/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/choisir-sa-takchita-de-mariee-marocaine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/choosing-a-moroccan-bridal-takchita/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/ikhtiyar-takchita-alarous-maghribiya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/fr/journal/choisir-sa-takchita-de-mariee-marocaine/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/choisir-sa-takchita-de-mariee-marocaine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/choosing-a-moroccan-bridal-takchita/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/ikhtiyar-takchita-alarous-maghribiya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/en/journal/choosing-a-moroccan-bridal-takchita/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/choisir-sa-takchita-de-mariee-marocaine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/choosing-a-moroccan-bridal-takchita/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/ikhtiyar-takchita-alarous-maghribiya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/ar/journal/ikhtiyar-takchita-alarous-maghribiya/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/choisir-sa-takchita-de-mariee-marocaine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/choosing-a-moroccan-bridal-takchita/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/ikhtiyar-takchita-alarous-maghribiya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/marokkaanse-bruidstakchita-kiezen/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/entretenir-un-caftan-brode-main/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/caring-for-a-hand-embroidered-kaftan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/alinaya-biqaftan-almutarraz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/fr/journal/entretenir-un-caftan-brode-main/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/entretenir-un-caftan-brode-main/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/caring-for-a-hand-embroidered-kaftan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/alinaya-biqaftan-almutarraz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/en/journal/caring-for-a-hand-embroidered-kaftan/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/entretenir-un-caftan-brode-main/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/caring-for-a-hand-embroidered-kaftan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/alinaya-biqaftan-almutarraz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/ar/journal/alinaya-biqaftan-almutarraz/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/entretenir-un-caftan-brode-main/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/caring-for-a-hand-embroidered-kaftan/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/alinaya-biqaftan-almutarraz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/handgeborduurde-kaftan-verzorgen/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/aid-mariage-henne-que-porter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/eid-wedding-henna-what-to-wear/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/qaftan-lileid-walafrah-walhenna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/fr/journal/aid-mariage-henne-que-porter/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/aid-mariage-henne-que-porter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/eid-wedding-henna-what-to-wear/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/qaftan-lileid-walafrah-walhenna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/en/journal/eid-wedding-henna-what-to-wear/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/aid-mariage-henne-que-porter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/eid-wedding-henna-what-to-wear/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/qaftan-lileid-walafrah-walhenna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/ar/journal/qaftan-lileid-walafrah-walhenna/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/journal/aid-mariage-henne-que-porter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/journal/eid-wedding-henna-what-to-wear/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/journal/qaftan-lileid-walafrah-walhenna/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/journal/kaftan-eid-bruiloft-henna/"/>
   </url>
 </urlset>
