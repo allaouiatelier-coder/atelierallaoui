@@ -1839,4 +1839,64 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/privacy/"/>
   </url>
+  <url>
+    <loc>https://atelierallaoui.com/bridal-couture/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/bridal-couture/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/fr/bridal-couture/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/bridal-couture/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/en/bridal-couture/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/bridal-couture/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/bridal-couture/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/testimonials/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/testimonials/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/fr/testimonials/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/testimonials/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/en/testimonials/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/testimonials/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/testimonials/"/>
+  </url>
 </urlset>
