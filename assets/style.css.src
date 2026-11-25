@@ -1026,3 +1026,9 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .home .section,.home .news,.home .quotes{padding-block:clamp(44px,6vw,88px)}
 .home .cats{grid-template-columns:repeat(3,1fr)}
 @media(min-width:801px){.home .cat{aspect-ratio:16/11}}
+
+/* Instagram-tegels met echte foto's */
+.insta a{aspect-ratio:4/5}
+.insta picture,.insta img{display:block;width:100%;height:100%}
+.insta img{object-fit:cover;transition:transform .9s}
+.insta a:hover img{transform:scale(1.06)}
