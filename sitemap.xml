@@ -24,7 +24,7 @@
   </url>
   <url>
     <loc>https://atelierallaoui.com/en/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/"/>
@@ -273,7 +273,7 @@
   </url>
   <url>
     <loc>https://atelierallaoui.com/en/shipping/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/shipping/"/>
@@ -336,7 +336,7 @@
   </url>
   <url>
     <loc>https://atelierallaoui.com/en/faq/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/faq/"/>
@@ -1753,7 +1753,7 @@
   </url>
   <url>
     <loc>https://atelierallaoui.com/en/b2b/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/b2b/"/>
@@ -1761,6 +1761,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/b2b/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/b2b/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/b2b/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/en/wholesale-usa/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/wholesale-usa/"/>
   </url>
   <url>
     <loc>https://atelierallaoui.com/ar/</loc>
