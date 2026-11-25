@@ -211,6 +211,44 @@ cbSync();
 if (choice === 'all') loadAnalytics();
 });
 }
+function aaTrack(name, params) {
+try {
+if (!window._gaLoaded || typeof window.gtag !== 'function') return;
+params = params || {};
+params.transport_type = 'beacon';   /* sendBeacon: de pagina mag direct wegnavigeren */
+window.gtag('event', name, params);
+} catch (e) {}
+}
+window.aaTrack = aaTrack;
+function aaLang() { return (document.documentElement.lang || 'nl').slice(0, 2); }
+function aaWaLocation(el) {
+if (el.closest('.hero')) return 'hero';
+if (el.classList.contains('wa')) return 'floating';
+if (el.closest('.bbar')) return 'bottom-bar';
+if (el.closest('.share')) return 'share';
+if (el.closest('.pdp')) return 'pdp';
+if (el.closest('.cart-drawer')) return 'cart';
+if (el.closest('.drawer')) return 'menu';
+if (el.closest('.ftr')) return 'footer';
+if (el.closest('.pagehead')) return 'pagehead';
+if (el.closest('main')) return 'content';
+return 'other';
+}
+document.addEventListener('click', function (e) {
+var a = e.target && e.target.closest ? e.target.closest('a[href*="wa.me"],a[href*="api.whatsapp.com"]') : null;
+if (!a) return;
+aaTrack('whatsapp_click', { link_location: aaWaLocation(a), page_language: aaLang(), page_path: location.pathname });
+}, true);
+function aaFormConversion() {
+try {
+var ff = sessionStorage.getItem('aa_form');
+if (ff && /\/bedankt\/?$/.test(location.pathname)) {
+if (ff === 'nieuwsbrief') aaTrack('newsletter_signup', { form_name: ff, language: aaLang() });
+else aaTrack('generate_lead', { form_name: ff, language: aaLang() });
+sessionStorage.removeItem('aa_form');
+}
+} catch (e) {}
+}
 function loadAnalytics() {
 if (window._gaLoaded) return;
 window._gaLoaded = true;
@@ -221,16 +259,10 @@ s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
 document.head.appendChild(s);
 window.dataLayer = window.dataLayer || [];
 function gtag() { dataLayer.push(arguments); }
+window.gtag = gtag;
 gtag('js', new Date());
 gtag('config', GA_ID, { anonymize_ip: true, cookie_flags: 'SameSite=None;Secure' });
-    /* Formulier-conversie: na verzenden landt de bezoeker op /bedankt/ */
-    try {
-      var ff = sessionStorage.getItem('aa_form');
-      if (ff && /\/bedankt\/?$/.test(location.pathname)) {
-        gtag('event', 'generate_lead', { form_name: ff });
-        sessionStorage.removeItem('aa_form');
-      }
-    } catch (e) {}
+aaFormConversion();
 }
 var gal = document.querySelector('.gallery');
 if (gal) {
@@ -399,6 +431,7 @@ btn.textContent = label;
 }
 });
 }
+var RMLBL = ({ nl: 'Verwijderen', en: 'Remove', fr: 'Retirer', ar: 'إزالة' })[(document.documentElement.lang || 'nl').slice(0, 2)] || 'Remove';
 function renderDrawer() {
 if (!cartList) return;
 cartList.innerHTML = '';
@@ -427,7 +460,7 @@ li.innerHTML = imgHtml
 + '<span class="cart-item__cat">' + item.cat + '</span>'
 + '<span class="cart-item__name">' + item.name + '</span>'
 + '</div>'
-+ '<button class="cart-item__rm" type="button" data-rm="' + idx + '" aria-label="Remove">'
++ '<button class="cart-item__rm" type="button" data-rm="' + idx + '" aria-label="' + RMLBL + '">'
 + '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>'
 + '</button>';
 cartList.appendChild(li);
@@ -551,6 +584,7 @@ return (i + 1) + '. ' + item.name + ' (' + item.cat + ')';
 });
 var msg = intro + '\n\n' + lines.join('\n');
 var phone = cartSend.getAttribute('data-wa') || '';
+if (window.aaTrack) aaTrack('whatsapp_click', { link_location: 'cart', page_language: (document.documentElement.lang || 'nl').slice(0, 2), page_path: location.pathname });
 window.open('https://wa.me/' + phone + '?text=' + encodeURIComponent(msg), '_blank');
 });
 updateCount();
@@ -628,6 +662,7 @@ function sendCustomForm(form) {
   keys.forEach(function (k, i) { if (d.get(k)) lines.push('*' + T[i] + ':* ' + d.get(k)); });
   var msg = T[7] + '\n\n' + lines.join('\n');
   var phone = form.getAttribute('data-wa');
+  if (window.aaTrack) aaTrack('whatsapp_click', { link_location: 'custom-form', page_language: lg, page_path: location.pathname });
   window.open('https://wa.me/' + phone + '?text=' + encodeURIComponent(msg), '_blank');
   return false;
 }
