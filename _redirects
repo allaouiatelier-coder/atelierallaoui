@@ -1,3 +1,31 @@
+# Samengevoegde journal-artikelen: oude dunne pagina's -> uitgebreid artikel (permanent, ook op de aliasdomeinen; pad-gebaseerd, dus gelden voor alle hosts)
+/journal/caring-for-embroidered-pieces/  /journal/handgeborduurde-kaftan-verzorgen/  301!
+/journal/caring-for-embroidered-pieces  /journal/handgeborduurde-kaftan-verzorgen/  301!
+/journal/henna-evening-outfits/  /journal/kaftan-eid-bruiloft-henna/  301!
+/journal/henna-evening-outfits  /journal/kaftan-eid-bruiloft-henna/  301!
+/journal/choosing-your-bridal-look/  /journal/marokkaanse-bruidstakchita-kiezen/  301!
+/journal/choosing-your-bridal-look  /journal/marokkaanse-bruidstakchita-kiezen/  301!
+/journal/the-art-of-the-kaftan/  /journal/kaftan-of-takchita-verschil/  301!
+/journal/the-art-of-the-kaftan  /journal/kaftan-of-takchita-verschil/  301!
+
+/en/journal/caring-for-embroidered-pieces/  /en/journal/caring-for-a-hand-embroidered-kaftan/  301!
+/en/journal/caring-for-embroidered-pieces  /en/journal/caring-for-a-hand-embroidered-kaftan/  301!
+/en/journal/henna-evening-outfits/  /en/journal/eid-wedding-henna-what-to-wear/  301!
+/en/journal/henna-evening-outfits  /en/journal/eid-wedding-henna-what-to-wear/  301!
+/en/journal/choosing-your-bridal-look/  /en/journal/choosing-a-moroccan-bridal-takchita/  301!
+/en/journal/choosing-your-bridal-look  /en/journal/choosing-a-moroccan-bridal-takchita/  301!
+/en/journal/the-art-of-the-kaftan/  /en/journal/kaftan-vs-takchita/  301!
+/en/journal/the-art-of-the-kaftan  /en/journal/kaftan-vs-takchita/  301!
+
+/fr/journal/caring-for-embroidered-pieces/  /fr/journal/entretenir-un-caftan-brode-main/  301!
+/fr/journal/caring-for-embroidered-pieces  /fr/journal/entretenir-un-caftan-brode-main/  301!
+/fr/journal/henna-evening-outfits/  /fr/journal/aid-mariage-henne-que-porter/  301!
+/fr/journal/henna-evening-outfits  /fr/journal/aid-mariage-henne-que-porter/  301!
+/fr/journal/choosing-your-bridal-look/  /fr/journal/choisir-sa-takchita-de-mariee-marocaine/  301!
+/fr/journal/choosing-your-bridal-look  /fr/journal/choisir-sa-takchita-de-mariee-marocaine/  301!
+/fr/journal/the-art-of-the-kaftan/  /fr/journal/caftan-ou-takchita-la-difference/  301!
+/fr/journal/the-art-of-the-kaftan  /fr/journal/caftan-ou-takchita-la-difference/  301!
+
 # Extra domeinen: bezoeker blijft op het eigen domein (rewrite, geen redirect).
 # De canonical in elke pagina wijst naar atelierallaoui.com, dus Google telt alles bij .com.
 http://atelierallaoui.fr/*  https://atelierallaoui.fr/:splat  301!
