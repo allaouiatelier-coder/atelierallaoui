@@ -177,6 +177,14 @@ window.dataLayer = window.dataLayer || [];
 function gtag() { dataLayer.push(arguments); }
 gtag('js', new Date());
 gtag('config', GA_ID, { anonymize_ip: true, cookie_flags: 'SameSite=None;Secure' });
+    /* Formulier-conversie: na verzenden landt de bezoeker op /bedankt/ */
+    try {
+      var ff = sessionStorage.getItem('aa_form');
+      if (ff && /\/bedankt\/?$/.test(location.pathname)) {
+        gtag('event', 'generate_lead', { form_name: ff });
+        sessionStorage.removeItem('aa_form');
+      }
+    } catch (e) {}
 }
 var gal = document.querySelector('.gallery');
 if (gal) {
@@ -667,3 +675,11 @@ navigator.serviceWorker.register('/sw.js').catch(function () {});
   function start() { initParallax(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
 })();
+
+/* Onthoud welk Netlify-formulier is verstuurd (voor de conversiemeting op /bedankt/) */
+document.addEventListener('submit', function (e) {
+  var f = e.target;
+  if (f && f.hasAttribute && f.hasAttribute('data-netlify')) {
+    try { sessionStorage.setItem('aa_form', f.getAttribute('name') || 'form'); } catch (x) {}
+  }
+}, true);
