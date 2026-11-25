@@ -243,6 +243,13 @@ if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) lbShow(ci + (dx < 0 ? 1 : 
 var v = document.getElementById('heroVideo'),
 btn = document.getElementById('heroSound');
 if (!v) return;
+  /* Mobiel / zuinige verbinding: alleen de poster, geen video-download (bespaart ~2 MB) */
+  var cn = navigator.connection || {};
+  if (innerWidth < 768 || cn.saveData || /(^|-)(2g|3g)$/.test(cn.effectiveType || '')) {
+    if (btn) btn.hidden = true;
+    return;
+  }
+
 var mp4 = v.getAttribute('data-mp4') || '';
 var webm = v.getAttribute('data-webm') || '';
 v.muted = true;
