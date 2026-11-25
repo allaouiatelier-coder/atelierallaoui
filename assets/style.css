@@ -2,3 +2,4 @@
 @media (prefers-reduced-motion:reduce){[data-px]{transform:none!important}
 }
 .trio{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,28px)}.trio__item{background:var(--cream);padding:clamp(22px,3vw,40px);display:flex;flex-direction:column;gap:10px;border:1px solid rgba(157,120,125,.25)}.trio__item h3{font-size:clamp(1.5rem,1.2rem + 1vw,2rem);font-weight:500;margin:0}.trio__item p{margin:0;flex:1}@media(max-width:800px){.trio{grid-template-columns:1fr}}
+.home .section,.home .news,.home .quotes{padding-block:clamp(44px,6vw,88px)}.home .cats{grid-template-columns:repeat(3,1fr)}@media(min-width:801px){.home .cat{aspect-ratio:16/11}}
