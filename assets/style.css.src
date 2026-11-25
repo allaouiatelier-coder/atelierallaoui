@@ -3,7 +3,7 @@
    Signatuur: de Marokkaanse hoefijzerboog als beeldkader (#arch)
    ============================================================ */
 :root{
-  --rose-deep:#9D787D; --rose:#A8857D; --rose-mid:#B19088; --rose-light:#BC9D95;
+  --rose-deep:#9D787D;--rose-ink:#835F64; --rose:#A8857D; --rose-mid:#B19088; --rose-light:#BC9D95;
   --champagne:#E4D5C3; --cream:#F3ECE4; --ivory:#FBF8F5; --gold:#B99B6B;
   --ink:#2B2320; --ink-soft:#6B5B54; --line:rgba(43,35,32,.14);
   --display:"Cormorant Garamond",Georgia,serif;
@@ -26,7 +26,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;-webki
 .skip-link:focus{top:0}
 
 /* --- Type --- */
-.eyebrow{font-size:10.5px;font-weight:400;letter-spacing:.34em;text-transform:uppercase;color:var(--rose-deep)}
+.eyebrow{font-size:10.5px;font-weight:400;letter-spacing:.34em;text-transform:uppercase;color:var(--rose-ink)}
 h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08}
 .h-xl{font-size:clamp(2.75rem,1.4rem + 6.2vw,6.5rem);letter-spacing:.02em}
 .h-lg{font-size:clamp(2rem,1.1rem + 3.6vw,3.875rem);letter-spacing:.015em}
@@ -174,7 +174,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
     transition:color .3s ease,transform .2s ease;min-height:44px;border:0;background:none;cursor:pointer;
     position:relative}
   .bbar__tab svg{width:20px;height:20px;flex:none;transition:transform .25s ease;stroke-width:1.5}
-  .bbar__tab.is-on{color:var(--rose-deep);font-weight:500}
+  .bbar__tab.is-on{color:var(--rose-ink);font-weight:500}
   .bbar__tab.is-on svg{stroke-width:2;transform:scale(1.08)}
   .bbar__tab.is-on::after{content:"";position:absolute;top:6px;left:50%;transform:translateX(-50%);
     width:4px;height:4px;border-radius:50%;background:var(--rose-deep)}
@@ -254,7 +254,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .card__flag{position:absolute;top:12px;left:12px;z-index:3;background:rgba(251,248,245,.92);
   font-size:8.5px;letter-spacing:.22em;text-transform:uppercase;padding:5px 10px;border-radius:3px}
 .card__body{padding:18px 8px 8px;text-align:center}
-.card__cat{font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--rose-deep)}
+.card__cat{font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--rose-ink)}
 .card__name{font-family:var(--display);font-size:clamp(1.125rem,1rem + .4vw,1.375rem);margin:6px 0 4px}
 .card__price{font-size:12.5px;letter-spacing:.1em;color:var(--ink-soft)}
 
@@ -283,7 +283,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 /* --- Stappen --- */
 .steps{list-style:none;margin:34px 0 0;padding:0;border-top:1px solid var(--line)}
 .steps li{display:flex;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}
-.steps b{font-family:var(--display);font-size:19px;font-weight:400;color:var(--rose-deep);min-width:34px}
+.steps b{font-family:var(--display);font-size:19px;font-weight:400;color:var(--rose-ink);min-width:34px}
 .steps p{margin:0;color:var(--ink-soft)}
 .steps strong{display:block;font-weight:400;color:var(--ink);font-size:14px;letter-spacing:.02em}
 
@@ -334,7 +334,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .card__cdot:hover{transform:scale(1.25);border-color:var(--ink)}
 .card__cdot.is-on{border-color:var(--ink)}
 .pdp__price{font-size:clamp(1.0625rem,1rem + .3vw,1.25rem);letter-spacing:.06em;color:var(--ink-soft);margin:14px 0 4px}
-.pdp__rent{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--rose-deep)}
+.pdp__rent{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--rose-ink)}
 .opt{margin-top:30px}
 .opt__head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px}
 .opt__head span{font-size:10px;letter-spacing:.26em;text-transform:uppercase}
@@ -410,7 +410,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 /* --- Contact --- */
 .contact-grid{display:grid;grid-template-columns:1fr .85fr;gap:clamp(32px,6vw,90px);align-items:start}
 .contact-block+.contact-block{margin-top:34px;padding-top:34px;border-top:1px solid var(--line)}
-.contact-block h3{font-family:var(--sans);font-size:10px;letter-spacing:.26em;text-transform:uppercase;margin-bottom:12px}
+.contact-block h3,.contact-block h2{font-family:var(--sans);font-size:10px;letter-spacing:.26em;text-transform:uppercase;margin-bottom:12px}
 .contact-block p{margin:0;color:var(--ink-soft)}
 .contact-block a{border-bottom:1px solid var(--line)}
 .map{aspect-ratio:16/10;margin-top:14px}
@@ -428,7 +428,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .post__media{aspect-ratio:4/3;overflow:hidden}
 .post__media .ph{width:100%;height:100%;transition:transform 1s cubic-bezier(.2,.8,.2,1)}
 .post:hover .post__media .ph{transform:scale(1.05)}
-.post h3{font-size:clamp(1.25rem,1.05rem + .5vw,1.5rem);margin:18px 0 8px}
+.post h3,.post h2{font-size:clamp(1.25rem,1.05rem + .5vw,1.5rem);margin:18px 0 8px}
 .post p{color:var(--ink-soft);margin:0 0 16px}
 .insta{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
 .insta a{aspect-ratio:1/1;position:relative;overflow:hidden}
@@ -445,7 +445,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .ftr{background:var(--ink);color:var(--ivory);padding-block:clamp(64px,9vw,110px) 36px}
 .ftr__top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:clamp(28px,4vw,64px);
   padding-bottom:56px;border-bottom:1px solid rgba(251,248,245,.14)}
-.ftr h4{font-family:var(--sans);font-size:10px;letter-spacing:.28em;text-transform:uppercase;
+.ftr h4,.ftr .ftr__h{font-family:var(--sans);font-size:10px;letter-spacing:.28em;text-transform:uppercase;
   font-weight:400;margin:0 0 22px;color:var(--champagne)}
 .ftr ul{list-style:none;margin:0;padding:0}
 .ftr li{margin-bottom:11px}
@@ -776,9 +776,9 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .cb.is-visible{display:flex}
 .cb a{color:var(--rose);text-decoration:underline}
 .cb__btns{display:flex;gap:8px;flex-wrap:wrap}
-.cb__ok{background:var(--rose);color:#fff;border:none;padding:8px 22px;border-radius:4px;
+.cb__ok{background:var(--rose-ink);color:#fff;border:none;padding:8px 22px;border-radius:4px;
   cursor:pointer;font-size:14px;font-family:var(--body);font-weight:500;transition:background .2s}
-.cb__ok:hover{background:var(--rose-deep)}
+.cb__ok:hover{background:var(--ink)}
 .cb__rej{background:transparent;color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.3);
   padding:8px 22px;border-radius:4px;cursor:pointer;font-size:14px;font-family:var(--body);
   font-weight:400;transition:all .2s}
@@ -804,9 +804,9 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .chip span{display:inline-block;padding:10px 22px;border:1px solid var(--line);border-radius:100px;
   font-family:var(--sans);font-size:14px;color:var(--ink-soft);transition:all .2s;background:var(--ivory)}
 .chip:hover span{border-color:var(--rose);color:var(--ink)}
-.chip input:checked+span{background:var(--rose-deep);color:#fff;border-color:var(--rose-deep)}
+.chip input:checked+span{background:var(--rose-ink);color:#fff;border-color:var(--rose-ink)}
 .form-or{font-family:var(--sans);font-size:14px;color:var(--ink-soft)}
-.form-or a{color:var(--rose-deep);font-weight:500}
+.form-or a{color:var(--rose-ink);font-weight:500}
 @media(max-width:600px){
   .form-row--half{grid-template-columns:1fr}
 }
@@ -820,7 +820,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
   padding:8px;margin-right:4px;display:flex;align-items:center;min-width:44px;min-height:44px;
   justify-content:center}
 .cart-btn svg{display:block}
-.cart-btn__count{position:absolute;top:2px;right:0;background:var(--rose-deep);color:#fff;
+.cart-btn__count{position:absolute;top:2px;right:0;background:var(--rose-ink);color:#fff;
   font-family:var(--sans);font-size:11px;font-weight:600;min-width:18px;height:18px;
   border-radius:50%;display:none;align-items:center;justify-content:center;line-height:1;
   padding:0 4px}
@@ -830,7 +830,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 
 /* Card add-button */
 .card{position:relative}
-.card__add{position:absolute;bottom:0;left:0;right:0;background:var(--rose-deep);color:#fff;
+.card__add{position:absolute;bottom:0;left:0;right:0;background:var(--rose-ink);color:#fff;
   border:none;cursor:pointer;font-family:var(--sans);font-size:13px;font-weight:500;
   letter-spacing:.06em;text-transform:uppercase;padding:10px 0;opacity:0;
   transform:translateY(4px);transition:opacity .25s ease,transform .25s ease}
@@ -975,9 +975,9 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .share__btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;
   color:var(--ink-soft);transition:all .3s;cursor:pointer;background:none;padding:0}
 .share__btn svg{width:18px;height:18px;fill:currentColor}
-.share__btn:hover{border-color:var(--rose-deep);color:var(--rose-deep);transform:translateY(-2px)}
+.share__btn:hover{border-color:var(--rose-ink);color:var(--rose-ink);transform:translateY(-2px)}
 .share__copy svg{fill:none;stroke:currentColor}
-.share__copy.is-copied{border-color:var(--rose-deep);color:var(--rose-deep)}
+.share__copy.is-copied{border-color:var(--rose-ink);color:var(--rose-ink)}
 
 /* ============================================================
    Back-to-top button
@@ -1052,3 +1052,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 @media(max-width:800px){.split__media.ph:not(:has(img)){display:none}}
 
 .hero__sound[hidden]{display:none!important}
+
+/* --- Toegankelijkheid: contrast, WhatsApp-knop boven cookiebanner --- */
+.ftr__bottom a{opacity:1}
+html.has-cb .wa{bottom:calc(var(--cb-top,0px) + 12px)}

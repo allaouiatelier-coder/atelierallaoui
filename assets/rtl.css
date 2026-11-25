@@ -25,7 +25,7 @@ html[dir=rtl] .acc__btn{font-size:16px;font-weight:500;text-align:right;line-hei
 html[dir=rtl] .acc__panel div{font-size:15.5px}
 html[dir=rtl] .prose th{font-size:14px;font-weight:500}
 html[dir=rtl] .prose td{font-size:15px}
-html[dir=rtl] .ftr h4{font-size:15px}
+html[dir=rtl] .ftr h4,html[dir=rtl] .ftr .ftr__h{font-size:15px}
 html[dir=rtl] .ftr a,html[dir=rtl] .ftr li{font-size:15px}
 html[dir=rtl] .ftr__bottom{font-size:13.5px}
 html[dir=rtl] .news__note,html[dir=rtl] .cart-drawer__note{font-size:13.5px}
@@ -87,10 +87,10 @@ html[dir=rtl] input[type=email],html[dir=rtl] input[type=tel],html[dir=rtl] inpu
 html[dir=rtl] [dir=ltr]{unicode-bidi:isolate}
 html[dir=rtl] .ph::after{font-family:var(--display)}
 html[dir=rtl] .ar-note{font-size:14px;color:var(--ink-soft)}
-html[dir=rtl] .contact-block h3{font-size:16px;font-weight:500}
+html[dir=rtl] .contact-block h3,html[dir=rtl] .contact-block h2{font-size:16px;font-weight:500}
 html[dir=rtl] .imp{border-top:1px solid var(--line);margin:18px 0 30px}
 html[dir=rtl] .imp__row{padding:20px 0;border-bottom:1px solid var(--line)}
 html[dir=rtl] .imp__row h3{margin:0 0 6px;font-size:1.3rem}
 html[dir=rtl] .imp__row p{margin:0 0 8px}
-html[dir=rtl] .imp__vat{color:var(--rose-deep);font-weight:500}
+html[dir=rtl] .imp__vat{color:var(--rose-ink);font-weight:500}
 html[dir=rtl] .imp__vat span{color:var(--ink-soft);font-weight:400}
