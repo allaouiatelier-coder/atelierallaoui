@@ -1,5 +1,5 @@
 /* Atelier Allaoui — Service Worker for offline caching */
-const CACHE = 'allaoui-v9';
+const CACHE = 'allaoui-v10';
 const OFFLINE = '/404.html';
 
 /* Shell: pages + assets that make the site work offline */

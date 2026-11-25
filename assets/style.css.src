@@ -1032,3 +1032,21 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:300;margin:0;line-height:1.08
 .insta picture,.insta img{display:block;width:100%;height:100%}
 .insta img{object-fit:cover;transition:transform .9s}
 .insta a:hover img{transform:scale(1.06)}
+
+/* Mobiel: kop past op 360-414px, 2 kolommen producten, compacter, geen lege placeholders */
+@media(max-width:600px){.hdr{column-gap:6px}
+.wordmark{font-size:1.05rem;letter-spacing:.2em;padding-left:.2em}
+.cart-btn{margin-right:0}
+.eyebrow{font-size:11px}
+.card__cat{font-size:11px}
+.card__flag{font-size:10px}
+.btn,.link-u{font-size:12px}
+.news__note{font-size:12px}
+.grid-4{grid-template-columns:1fr 1fr!important;gap:12px}
+.card__name{font-size:1.05rem}
+.trio__item{padding:20px 18px;gap:6px}
+.trio{gap:12px}
+.ftr__top{grid-template-columns:1fr 1fr!important;gap:26px 18px}
+.ftr{padding-top:36px}}
+@media(max-width:340px){.wordmark{font-size:.95rem;letter-spacing:.16em}}
+@media(max-width:800px){.split__media.ph:not(:has(img)){display:none}}
