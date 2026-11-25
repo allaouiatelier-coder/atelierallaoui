@@ -1,0 +1,96 @@
+/* Atelier Allaoui — Arabic / RTL overrides. Loaded only on /ar/ pages.
+   Every selector is prefixed with html[dir=rtl] so it wins over style.css
+   regardless of the order in which the stylesheets finish loading. */
+html[dir=rtl]{--display:"Amiri","Cormorant Garamond",Georgia,"Times New Roman",serif;--sans:"Noto Sans Arabic","Jost","Segoe UI",Tahoma,Arial,sans-serif}
+html[dir=rtl] body{font-weight:400;line-height:1.95}
+/* Arabic letters must stay joined: no tracking, no case changes (Latin brand mark excepted) */
+html[dir=rtl] *:not(.wordmark):not(.ftr__mark):not(.drawer__brand){letter-spacing:normal!important;text-transform:none!important}
+html[dir=rtl] h1,html[dir=rtl] h2,html[dir=rtl] h3,html[dir=rtl] h4{font-weight:400;line-height:1.5}
+html[dir=rtl] .hero h1,html[dir=rtl] .h-lg{line-height:1.45}
+
+/* Small caps-style labels were 9–11px: Arabic needs more size to stay readable */
+html[dir=rtl] .ticker span{font-size:13px}
+html[dir=rtl] .nav a,html[dir=rtl] .utils button,html[dir=rtl] .utils a{font-size:14.5px;font-weight:500}
+html[dir=rtl] .langs a{font-size:12px;font-weight:500}
+html[dir=rtl] .eyebrow,html[dir=rtl] .hero .eyebrow{font-size:14px;font-weight:500}
+html[dir=rtl] .btn,html[dir=rtl] .link-u{font-size:15px;font-weight:500}
+html[dir=rtl] .card__cat{font-size:13px}
+html[dir=rtl] .card__flag{font-size:12px}
+html[dir=rtl] .card__price{font-size:14px}
+html[dir=rtl] .card__name{font-size:1.2rem}
+html[dir=rtl] .card__add{font-size:14px}
+html[dir=rtl] .crumbs{font-size:13px}
+html[dir=rtl] .field label{font-size:14px;font-weight:500}
+html[dir=rtl] .acc__btn{font-size:16px;font-weight:500;text-align:right;line-height:1.7}
+html[dir=rtl] .acc__panel div{font-size:15.5px}
+html[dir=rtl] .prose th{font-size:14px;font-weight:500}
+html[dir=rtl] .prose td{font-size:15px}
+html[dir=rtl] .ftr h4{font-size:15px}
+html[dir=rtl] .ftr a,html[dir=rtl] .ftr li{font-size:15px}
+html[dir=rtl] .ftr__bottom{font-size:13.5px}
+html[dir=rtl] .news__note,html[dir=rtl] .cart-drawer__note{font-size:13.5px}
+html[dir=rtl] .news__form input::placeholder{font-size:14px}
+html[dir=rtl] .news__form button{font-size:15px;font-weight:500}
+html[dir=rtl] .cb{font-size:14px}
+html[dir=rtl] .cb__ok,html[dir=rtl] .cb__rej{font-size:14px}
+html[dir=rtl] .bbar__tab span{font-size:12px}
+html[dir=rtl] .drawer__main{font-size:clamp(1.6rem,1.3rem + 1.6vw,2.2rem)}
+html[dir=rtl] .drawer__sub a{font-size:17px}
+html[dir=rtl] .drawer__avail,html[dir=rtl] .hero__tag{font-size:16px}
+html[dir=rtl] .cat__label span{font-size:13px}
+html[dir=rtl] .hero__scroll{font-size:12px}
+html[dir=rtl] .toolbar__count,html[dir=rtl] .filters label,html[dir=rtl] .filter-toggle{font-size:15px}
+html[dir=rtl] .fgroup h3{font-size:1.1rem}
+html[dir=rtl] .steps strong{font-size:1.05rem}
+
+/* Ticker keeps its LTR scroll mechanics; each message reads RTL */
+html[dir=rtl] .ticker__track{direction:ltr}
+html[dir=rtl] .ticker__track span{direction:rtl;unicode-bidi:isolate}
+
+/* Mirrored positions */
+html[dir=rtl] .nav a::after{left:auto;right:0}
+html[dir=rtl] .hero__scroll{right:auto;left:var(--gut)}
+html[dir=rtl] .hero__sound{right:auto;left:22px}
+html[dir=rtl] .wa{right:auto;left:22px}
+html[dir=rtl] .btt{right:auto;left:22px}
+html[dir=rtl] .card__wish{right:auto;left:8px}
+html[dir=rtl] .card__flag{left:auto;right:12px}
+html[dir=rtl] .cart-btn__count{right:auto;left:0}
+html[dir=rtl] .cart-btn{margin-right:0;margin-left:4px}
+html[dir=rtl] .cart-drawer__panel{right:auto;left:0;transform:translateX(-100%);box-shadow:4px 0 24px rgba(0,0,0,.12)}
+html[dir=rtl] .acc__panel ul,html[dir=rtl] .prose ul,html[dir=rtl] .prose ol{padding-left:0;padding-right:20px}
+html[dir=rtl] .prose th,html[dir=rtl] .prose td{text-align:right}
+html[dir=rtl] .note{border-left:0;border-right:2px solid var(--rose-deep)}
+html[dir=rtl] .field select{padding-right:2px;padding-left:28px}
+html[dir=rtl] .steps li{transform:translateX(16px)}
+html[dir=rtl] .steps li.is-in{transform:none}
+html[dir=rtl] .drawer__main:active{transform:translateX(-6px)!important}
+
+/* Language switcher stays LTR (NL FR EN AR) like on the other languages */
+html[dir=rtl] .langs{direction:ltr}
+@media(max-width:1080px){
+  html[dir=rtl] .btt{left:16px;right:auto}
+}
+@media(max-width:640px){
+  html[dir=rtl] .hero__sound{left:14px;right:auto}
+}
+@media(max-width:480px){
+  html[dir=rtl] .field select{padding-right:4px;padding-left:28px}
+  html[dir=rtl] .hero h1{font-size:30px}
+  html[dir=rtl] .wordmark{font-size:1.05rem}
+}
+@media(max-width:360px){
+}
+
+/* Latin-only fields stay left-to-right even inside an RTL page */
+html[dir=rtl] input[type=email],html[dir=rtl] input[type=tel],html[dir=rtl] input[type=url],html[dir=rtl] input[type=date]{direction:ltr;text-align:right}
+html[dir=rtl] [dir=ltr]{unicode-bidi:isolate}
+html[dir=rtl] .ph::after{font-family:var(--display)}
+html[dir=rtl] .ar-note{font-size:14px;color:var(--ink-soft)}
+html[dir=rtl] .contact-block h3{font-size:16px;font-weight:500}
+html[dir=rtl] .imp{border-top:1px solid var(--line);margin:18px 0 30px}
+html[dir=rtl] .imp__row{padding:20px 0;border-bottom:1px solid var(--line)}
+html[dir=rtl] .imp__row h3{margin:0 0 6px;font-size:1.3rem}
+html[dir=rtl] .imp__row p{margin:0 0 8px}
+html[dir=rtl] .imp__vat{color:var(--rose-deep);font-weight:500}
+html[dir=rtl] .imp__vat span{color:var(--ink-soft);font-weight:400}

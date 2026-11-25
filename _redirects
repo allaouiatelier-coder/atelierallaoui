@@ -22,6 +22,7 @@ https://atelierallaoui.se/  /en/  200!
 /index.html       /         301
 
 # Taal van de browser (bezoeker kan altijd zelf wisselen)
+/    /ar/    302    Language=ar
 /    /fr/    302    Language=fr
 /    /en/    302    Language=en
 

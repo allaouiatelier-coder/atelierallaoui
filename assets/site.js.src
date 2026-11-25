@@ -30,8 +30,8 @@
   /* Bottom-bar — actieve tab markeren */
   var bbar = document.getElementById('bbar');
   if (bbar) {
-    var path = location.pathname.replace(/\/(nl|fr|en)\/?/, '/').replace(/\/index\.html$/, '/');
-    var tabMap = { '/': 'home', '/shop/': 'shop', '/custom-made/': 'custom', '/contact/': 'contact' };
+    var path = location.pathname.replace(/\/(nl|fr|en|ar)\/?/, '/').replace(/\/index\.html$/, '/');
+    var tabMap = { '/': 'home', '/shop/': 'shop', '/custom-made/': 'custom', '/contact/': 'contact', '/b2b/': 'b2b' };
     var active = tabMap[path] || '';
     bbar.querySelectorAll('[data-tab]').forEach(function (tab) {
       if (tab.getAttribute('data-tab') === active) tab.classList.add('is-on');
@@ -110,7 +110,7 @@
       });
       if (count) {
         var one = count.getAttribute('data-one') || 'stuk', many = count.getAttribute('data-many') || 'stukken';
-        count.textContent = n + ' ' + (n === 1 ? one : many);
+        var two = count.getAttribute('data-two'), few = count.getAttribute('data-few'); count.textContent = (n === 2 && two) ? two : n + ' ' + (n === 1 ? one : (few && n >= 3 && n <= 10 ? few : many));
       }
       if (history.replaceState) history.replaceState(null, '', cat === 'all' ? location.pathname : '?cat=' + cat);
     };
@@ -221,7 +221,7 @@
     var phs = [].slice.call(gal.querySelectorAll('.ph'));
     if (phs.length) {
       var lb = document.createElement('div'); lb.className = 'lb'; lb.setAttribute('role', 'dialog'); lb.setAttribute('aria-modal', 'true');
-      var LBT = ({nl:['Sluiten','Vorige','Volgende'],en:['Close','Previous','Next'],fr:['Fermer','Précédent','Suivant']})[(document.documentElement.lang||'nl').slice(0,2)] || ['Sluiten','Vorige','Volgende'];
+      var LBT = ({nl:['Sluiten','Vorige','Volgende'],en:['Close','Previous','Next'],fr:['Fermer','Précédent','Suivant'],ar:['إغلاق','السابق','التالي']})[(document.documentElement.lang||'nl').slice(0,2)] || ['Sluiten','Vorige','Volgende'];
       var inner = '<button class="lb__close" aria-label="' + LBT[0] + '">' + LBT[0] + '</button>';
       inner += '<button class="lb__arr lb__arr--prev" aria-label="' + LBT[1] + '">&#8249;</button>';
       inner += '<button class="lb__arr lb__arr--next" aria-label="' + LBT[2] + '">&#8250;</button>';
@@ -670,7 +670,8 @@ function sendCustomForm(form) {
   var T = {
     nl: ['Naam', 'Tel', 'Type', 'Gelegenheid', 'Kleuren', 'Budget', 'Wensen', 'Hallo, ik wil graag een stuk op maat laten maken.'],
     en: ['Name', 'Phone', 'Type', 'Occasion', 'Colours', 'Budget', 'Wishes', 'Hello, I would like to have a piece made to measure.'],
-    fr: ['Nom', 'Tél', 'Type', 'Occasion', 'Couleurs', 'Budget', 'Souhaits', 'Bonjour, je souhaite faire réaliser une pièce sur mesure.']
+    fr: ['Nom', 'Tél', 'Type', 'Occasion', 'Couleurs', 'Budget', 'Souhaits', 'Bonjour, je souhaite faire réaliser une pièce sur mesure.'],
+    ar: ['الاسم', 'الهاتف', 'النوع', 'المناسبة', 'الألوان', 'الميزانية', 'الرغبات', 'مرحبًا، أود طلب قطعة مفصّلة على مقاسي.']
   }[lg] || null;
   if (!T) T = ['Naam', 'Tel', 'Type', 'Gelegenheid', 'Kleuren', 'Budget', 'Wensen', 'Hallo, ik wil graag een stuk op maat laten maken.'];
   var keys = ['name', 'phone', 'type', 'occasion', 'colors', 'budget', 'notes'];
