@@ -777,3 +777,10 @@ document.addEventListener('submit', function (e) {
     try { sessionStorage.setItem('aa_form', f.getAttribute('name') || 'form'); } catch (x) {}
   }
 }, true);
+
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('.langs a[hreflang]');
+  if (!a) return;
+  var l = a.getAttribute('hreflang');
+  if (/^(nl|fr|en|ar)$/.test(l)) document.cookie = 'nf_lang=' + l + '; path=/; max-age=31536000; SameSite=Lax';
+});
