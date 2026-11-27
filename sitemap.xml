@@ -350,32 +350,35 @@
   </url>
   <url>
     <loc>https://atelierallaoui.com/size-guide/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/size-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/size-guide/"/>
   </url>
   <url>
     <loc>https://atelierallaoui.com/fr/size-guide/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/size-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/size-guide/"/>
   </url>
   <url>
     <loc>https://atelierallaoui.com/en/size-guide/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/size-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/size-guide/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/size-guide/"/>
   </url>
   <url>
@@ -1676,6 +1679,17 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/takchitas/"/>
     <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/takchitas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/takchitas/"/>
+  </url>
+  <url>
+    <loc>https://atelierallaoui.com/ar/size-guide/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://atelierallaoui.com/size-guide/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://atelierallaoui.com/fr/size-guide/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://atelierallaoui.com/en/size-guide/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://atelierallaoui.com/ar/size-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://atelierallaoui.com/size-guide/"/>
   </url>
   <url>
     <loc>https://atelierallaoui.com/ar/journal/</loc>
