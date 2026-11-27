@@ -12,9 +12,9 @@ var SF_TABLE = {
   "sizes": [
     {"label": "XS", "eu": 34, "bust": [80, 84], "waist": [62, 66], "hip": [88, 92]},
     {"label": "S", "eu": 36, "bust": [84, 88], "waist": [66, 70], "hip": [92, 96]},
-    {"label": "M", "eu": 38, "bust": [88, 94], "waist": [70, 76], "hip": [96, 102]},
-    {"label": "L", "eu": 40, "bust": [94, 100], "waist": [76, 82], "hip": [102, 108]},
-    {"label": "XL", "eu": 42, "bust": [100, 108], "waist": [82, 90], "hip": [108, 116]}
+    {"label": "M", "eu": "38–40", "bust": [88, 94], "waist": [70, 76], "hip": [96, 102]},
+    {"label": "L", "eu": "42", "bust": [94, 100], "waist": [76, 82], "hip": [102, 108]},
+    {"label": "XL", "eu": "44–46", "bust": [100, 108], "waist": [82, 90], "hip": [108, 116]}
   ],
   "limits": {"bust": [60, 200], "waist": [45, 190], "hip": [70, 220], "height": [140, 210]}
 };
@@ -70,13 +70,13 @@ var SF_TABLE = {
      Regels:
      1. Adviesmaat = de grootste maat van borst en heup; is de taille nog groter, dan telt die mee.
      2. Eén meetpunt buiten de standaardmaten (onder XS of boven XL), of twee of meer maten verschil -> "op maat"
-        (het atelier maakt elke maat). Bij een kaftan (valt los) telt een smallere taille daarbij niet mee.
+        (het atelier maakt elke maat). Een smallere taille telt nooit mee (kaftan valt los, takchita draag je met ceintuur).
      3. Binnen de tolerantie van een grens -> "tussen twee maten" (beide tonen; de tabelmaat blijft het advies).
      4. Pasvorm "ruim" -> de volgende maat als alternatief, nooit als vervanging. */
   function advise(m, garment, fit) {
     var per = {}, top = 0, low = N, outside = false, out;
     KEYS.forEach(function (k) {
-      var loose = garment === 'kaftan' && k === 'waist';
+      var loose = k === 'waist'; /* een smallere taille telt nooit mee; een bredere wel (top) */
       per[k] = sizeOf(k, m[k]);
       top = Math.max(top, per[k].i);
       if (!loose) low = Math.min(low, per[k].i);
